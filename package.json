@@ -1,0 +1,39 @@
+{
+  "name": "easy-history",
+  "version": "1.0.0",
+  "description": "Simple library to track, undo, and redo state changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack-rowe/easy-history.git"
+  },
+  "keywords": [
+    "history",
+    "undo",
+    "redo"
+  ],
+  "author": "Jack Rowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jack-rowe/easy-history/issues"
+  },
+  "homepage": "https://github.com/jack-rowe/easy-history#readme",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.24.7",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}

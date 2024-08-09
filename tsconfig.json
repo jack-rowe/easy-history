@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "module": "commonjs",
+      "target": "es6",
+      "strict": true,
+      "jsx": "react",
+      "moduleResolution": "node"
+    },
+    "include": ["src/**/*", "tests/**/*"]
+  }
