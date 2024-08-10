@@ -1,6 +1,6 @@
 {
   "name": "easy-history",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple library to track, undo, and redo state changes.",
   "main": "index.js",
   "scripts": {
