@@ -5,7 +5,10 @@
       "target": "es6",
       "strict": true,
       "jsx": "react",
-      "moduleResolution": "node"
+      "moduleResolution": "node",
+      "declaration": true,
+      "outDir": "./lib",
     },
-    "include": ["src/**/*", "tests/**/*"]
+    "include": ["src/**/*", "tests/**/*"],
+    "exclude": ["node_modules"]
   }

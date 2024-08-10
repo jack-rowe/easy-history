@@ -1,16 +1,20 @@
 {
   "name": "easy-history",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple library to track, undo, and redo state changes.",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jack-rowe/easy-history.git"
   },
   "keywords": [
+    "react",
+    "state management",
     "history",
     "undo",
     "redo"
@@ -35,5 +39,9 @@
   },
   "dependencies": {
     "react": "^18.3.1"
-  }
+  },
+  "files": [
+    "lib",
+    "index.d.ts"
+  ]
 }
