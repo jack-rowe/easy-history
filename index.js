@@ -1,2 +1,2 @@
 export {useHistory} from './src/useHistory';
-export {History} from './src/history';
+export {History, HistorySnapshot} from './src/history';
